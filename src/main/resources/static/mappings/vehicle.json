@@ -1,0 +1,27 @@
+{
+"properties": {
+"id": {
+"type": "keyword"
+},
+"number": {
+"type": "text"
+},
+"name": {
+"type": "text"
+},
+"created": {
+"type": "date"
+},
+"status": {
+"type": "boolean"
+},
+"quantity": {
+"type": "integer"
+},
+  "description": {
+    "type": "text",
+    "analyzer": "customAnalyzer_vi",
+    "search_analyzer": "customAnalyzer_vi"
+  }
+}
+}

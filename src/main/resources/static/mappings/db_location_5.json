@@ -1,0 +1,127 @@
+{
+  "properties": {
+    "version": {
+      "type": "text"
+    },
+    "wardname": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "markername": {
+      "type": "text"
+    },
+    "adddetailen": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "openhouse": {
+      "type": "text"
+    },
+    "shortname": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "province_area_code": {
+      "type": "text"
+    },
+    "_category": {
+      "type": "text"
+    },
+    "area": {
+      "type": "text"
+    },
+    "id": {
+      "type": "keyword"
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "adddetailvn": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "type": {
+      "type": "text"
+    },
+    "commune_area_code": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "email": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "nameen": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "postalcode": {
+      "type": "text"
+    },
+    "housenumaddress": {
+      "type": "text"
+    },
+    "timestamp": {
+      "type": "text"
+    },
+    "streetaddress": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "imagepath": {
+      "type": "text"
+    },
+    "poitype": {
+      "type": "integer"
+    },
+    "provincename": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "location": {
+      "type": "text"
+    },
+    "obj_id": {
+      "type": "text"
+    },
+    "district_area_code": {
+      "type": "text"
+    },
+    "addressen": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "countryname": {
+      "type": "text",
+      "analyzer": "customAnalyzer_vi",
+      "search_analyzer": "customAnalyzer_vi"
+    },
+    "gid": {
+      "type": "text"
+    },
+    "thearea": {
+      "type": "integer"
+    }
+  }
+}

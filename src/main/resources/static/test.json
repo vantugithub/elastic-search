@@ -1,0 +1,56 @@
+{
+  "settings":{
+    "analysis":{
+      "analyzer":{
+        "analyzer1":{
+          "type":"custom",
+          "tokenizer":"standard",
+          "filter":[ "standard", "lowercase", "ngram" ]
+        }
+      },
+      "filter":{
+        "ngram":{
+          "type":"ngram",
+          "min_gram":2,
+          "max_gram":15
+        }
+      }
+    }
+  },
+  "mappings": {
+    "vehicle": {
+      "properties": {
+        "description": {
+          "type": "text",
+          "search_analyzer" : "analyzer1",
+          "index_analyzer" : "analyzer1"
+        }
+      }
+    }
+  }
+}
+
+{
+  "index": {
+
+  },
+  "analysis": {
+    "filter": {
+      "autocomplete_filter": {
+        "type": "ngram",
+        "min_gram": 1,
+        "max_gram": 1
+      }
+    },
+    "analyzer": {
+      "customAnalyzer": {
+        "type": "custom",
+        "tokenizer": "standard",
+        "filter": [
+          "lowercase",
+          "autocomplete_filter"
+        ]
+      }
+    }
+  }
+}
